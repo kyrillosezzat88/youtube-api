@@ -1,0 +1,18 @@
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0px #ddd;
+    background-color: #fff;
+    // @media all and (max-width:769px) {
+    //     display: none;
+    // }
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__form{
+        display: flex;
+    }
+}

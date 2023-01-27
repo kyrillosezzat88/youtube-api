@@ -1,0 +1,21 @@
+.inpt{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border:none;
+    }
+
+    &-lg{
+        width: 500px;
+    }
+    &-sm{
+        width: 190px;
+    }
+}

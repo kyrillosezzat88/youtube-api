@@ -1,0 +1,17 @@
+.filter_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+    &_btn{
+        display: flex;
+        cursor: pointer;
+        text-transform: uppercase;
+        p{
+            margin-left: 5px;
+        }
+    }
+}

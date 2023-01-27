@@ -1,0 +1,23 @@
+.progressbar{
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+    position:absolute;
+    top: 0;
+    transition: all .3s ease-in-out;
+    &_0{
+        opacity: 0;
+    }
+    &_percent{
+        width: 0%;
+        height: 100%;
+        background-color: red;
+        transition: all .3s ease-in-out;
+
+        @for $i from 1 through 10 {
+            &_#{$i*10}{
+                width: $i*10%;
+            }
+        }
+    }
+}

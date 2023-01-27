@@ -1,0 +1,32 @@
+.video{
+    display: flex;
+    margin-bottom: 25px;
+    &_iframe{
+        @media all and (max-width:769px) {
+            width: 50%;
+            height: 100px;
+        }
+    }
+    &_content{
+        margin-left: 20px;
+        @media all and (max-width:769px) {
+            width: 40%;
+            margin-left: 10px;
+        }
+        &_title{
+            font-size: 16px;
+            margin: 0;
+            @media all and (max-width:769px) {
+                font-size: 12px;
+            }
+        }
+        &_description{
+            color: gray;
+            @media all and (max-width:769px) {
+                display: none;
+            }
+        }
+
+    }
+
+}
